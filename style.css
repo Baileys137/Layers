@@ -628,6 +628,12 @@
    cursor: pointer;
    transform: scale(1.05);
  }
+/* Responsive code for the service page for small mobile phones*/
+@media (max-width: 768px) {
+  .pricing-box,
+  .pricing-box-2 {
+      width: 35%;
+      height: 50%;
  
  /* CONTACT */
  
