@@ -678,6 +678,30 @@
    box-sizing: border-box;
    outline:0;
  }
+/* Responsive Styles */
+
+/* Adjust layout for smaller screens */
+@media screen and (max-width: 768px) { 
+  .feedback-input,
+  input[type="submit"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Adjust layout for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Decrease font size for better readability on smaller screens */
+  .contact-title {
+    font-size: 24px;
+  }
+  .contact-about {
+    font-size: 14px;
+  }
+  input[type="submit"] {
+    font-size: 16px;
+  }
+}
  
  .feedback-input:focus { border:2px solid #1e224f; }
  
